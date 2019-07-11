@@ -125,7 +125,7 @@ class SecretController extends Controller
             }else{
                 return Response::json([
                     'code' => 410,
-                    'message' => 'Running out of time'
+                    'message' => 'Expired'
                 ]);
             }
 
